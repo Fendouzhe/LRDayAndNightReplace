@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		968932501ACCFCE4002234B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9689324F1ACCFCE4002234B2 /* main.m */; };
+		968932531ACCFCE4002234B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 968932521ACCFCE4002234B2 /* AppDelegate.m */; };
+		968932561ACCFCE4002234B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 968932551ACCFCE4002234B2 /* ViewController.m */; };
+		968932591ACCFCE4002234B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 968932571ACCFCE4002234B2 /* Main.storyboard */; };
+		9689325B1ACCFCE4002234B2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9689325A1ACCFCE4002234B2 /* Images.xcassets */; };
+		9689325E1ACCFCE4002234B2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9689325C1ACCFCE4002234B2 /* LaunchScreen.xib */; };
+		9689326A1ACCFCE4002234B2 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 968932691ACCFCE4002234B2 /* ____Tests.m */; };
+		968932781ACCFD67002234B2 /* LRDayNightView.m in Sources */ = {isa = PBXBuildFile; fileRef = 968932771ACCFD67002234B2 /* LRDayNightView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		968932641ACCFCE4002234B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 968932421ACCFCE4002234B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 968932491ACCFCE4002234B2;
+			remoteInfo = "昼夜更替";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9689324A1ACCFCE4002234B2 /* 昼夜更替.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "昼夜更替.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9689324E1ACCFCE4002234B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9689324F1ACCFCE4002234B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		968932511ACCFCE4002234B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		968932521ACCFCE4002234B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		968932541ACCFCE4002234B2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		968932551ACCFCE4002234B2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		968932581ACCFCE4002234B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9689325A1ACCFCE4002234B2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9689325D1ACCFCE4002234B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		968932631ACCFCE4002234B2 /* 昼夜更替Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "昼夜更替Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		968932681ACCFCE4002234B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		968932691ACCFCE4002234B2 /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		968932761ACCFD67002234B2 /* LRDayNightView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRDayNightView.h; sourceTree = "<group>"; };
+		968932771ACCFD67002234B2 /* LRDayNightView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRDayNightView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		968932471ACCFCE4002234B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		968932601ACCFCE4002234B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		968932411ACCFCE4002234B2 = {
+			isa = PBXGroup;
+			children = (
+				9689324C1ACCFCE4002234B2 /* 昼夜更替 */,
+				968932661ACCFCE4002234B2 /* 昼夜更替Tests */,
+				9689324B1ACCFCE4002234B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9689324B1ACCFCE4002234B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9689324A1ACCFCE4002234B2 /* 昼夜更替.app */,
+				968932631ACCFCE4002234B2 /* 昼夜更替Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9689324C1ACCFCE4002234B2 /* 昼夜更替 */ = {
+			isa = PBXGroup;
+			children = (
+				968932511ACCFCE4002234B2 /* AppDelegate.h */,
+				968932521ACCFCE4002234B2 /* AppDelegate.m */,
+				968932541ACCFCE4002234B2 /* ViewController.h */,
+				968932551ACCFCE4002234B2 /* ViewController.m */,
+				968932571ACCFCE4002234B2 /* Main.storyboard */,
+				9689325A1ACCFCE4002234B2 /* Images.xcassets */,
+				968932761ACCFD67002234B2 /* LRDayNightView.h */,
+				968932771ACCFD67002234B2 /* LRDayNightView.m */,
+				9689325C1ACCFCE4002234B2 /* LaunchScreen.xib */,
+				9689324D1ACCFCE4002234B2 /* Supporting Files */,
+			);
+			path = "昼夜更替";
+			sourceTree = "<group>";
+		};
+		9689324D1ACCFCE4002234B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9689324E1ACCFCE4002234B2 /* Info.plist */,
+				9689324F1ACCFCE4002234B2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		968932661ACCFCE4002234B2 /* 昼夜更替Tests */ = {
+			isa = PBXGroup;
+			children = (
+				968932691ACCFCE4002234B2 /* ____Tests.m */,
+				968932671ACCFCE4002234B2 /* Supporting Files */,
+			);
+			path = "昼夜更替Tests";
+			sourceTree = "<group>";
+		};
+		968932671ACCFCE4002234B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				968932681ACCFCE4002234B2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		968932491ACCFCE4002234B2 /* 昼夜更替 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9689326D1ACCFCE4002234B2 /* Build configuration list for PBXNativeTarget "昼夜更替" */;
+			buildPhases = (
+				968932461ACCFCE4002234B2 /* Sources */,
+				968932471ACCFCE4002234B2 /* Frameworks */,
+				968932481ACCFCE4002234B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "昼夜更替";
+			productName = "昼夜更替";
+			productReference = 9689324A1ACCFCE4002234B2 /* 昼夜更替.app */;
+			productType = "com.apple.product-type.application";
+		};
+		968932621ACCFCE4002234B2 /* 昼夜更替Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 968932701ACCFCE4002234B2 /* Build configuration list for PBXNativeTarget "昼夜更替Tests" */;
+			buildPhases = (
+				9689325F1ACCFCE4002234B2 /* Sources */,
+				968932601ACCFCE4002234B2 /* Frameworks */,
+				968932611ACCFCE4002234B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				968932651ACCFCE4002234B2 /* PBXTargetDependency */,
+			);
+			name = "昼夜更替Tests";
+			productName = "昼夜更替Tests";
+			productReference = 968932631ACCFCE4002234B2 /* 昼夜更替Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		968932421ACCFCE4002234B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = itcast;
+				TargetAttributes = {
+					968932491ACCFCE4002234B2 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					968932621ACCFCE4002234B2 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 968932491ACCFCE4002234B2;
+					};
+				};
+			};
+			buildConfigurationList = 968932451ACCFCE4002234B2 /* Build configuration list for PBXProject "昼夜更替" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 968932411ACCFCE4002234B2;
+			productRefGroup = 9689324B1ACCFCE4002234B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				968932491ACCFCE4002234B2 /* 昼夜更替 */,
+				968932621ACCFCE4002234B2 /* 昼夜更替Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		968932481ACCFCE4002234B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				968932591ACCFCE4002234B2 /* Main.storyboard in Resources */,
+				9689325E1ACCFCE4002234B2 /* LaunchScreen.xib in Resources */,
+				9689325B1ACCFCE4002234B2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		968932611ACCFCE4002234B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		968932461ACCFCE4002234B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				968932561ACCFCE4002234B2 /* ViewController.m in Sources */,
+				968932531ACCFCE4002234B2 /* AppDelegate.m in Sources */,
+				968932781ACCFD67002234B2 /* LRDayNightView.m in Sources */,
+				968932501ACCFCE4002234B2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9689325F1ACCFCE4002234B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9689326A1ACCFCE4002234B2 /* ____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		968932651ACCFCE4002234B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 968932491ACCFCE4002234B2 /* 昼夜更替 */;
+			targetProxy = 968932641ACCFCE4002234B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		968932571ACCFCE4002234B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				968932581ACCFCE4002234B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9689325C1ACCFCE4002234B2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9689325D1ACCFCE4002234B2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9689326B1ACCFCE4002234B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9689326C1ACCFCE4002234B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9689326E1ACCFCE4002234B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "昼夜更替/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9689326F1ACCFCE4002234B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "昼夜更替/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		968932711ACCFCE4002234B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "昼夜更替Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/昼夜更替.app/昼夜更替";
+			};
+			name = Debug;
+		};
+		968932721ACCFCE4002234B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "昼夜更替Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/昼夜更替.app/昼夜更替";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		968932451ACCFCE4002234B2 /* Build configuration list for PBXProject "昼夜更替" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9689326B1ACCFCE4002234B2 /* Debug */,
+				9689326C1ACCFCE4002234B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9689326D1ACCFCE4002234B2 /* Build configuration list for PBXNativeTarget "昼夜更替" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9689326E1ACCFCE4002234B2 /* Debug */,
+				9689326F1ACCFCE4002234B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		968932701ACCFCE4002234B2 /* Build configuration list for PBXNativeTarget "昼夜更替Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				968932711ACCFCE4002234B2 /* Debug */,
+				968932721ACCFCE4002234B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 968932421ACCFCE4002234B2 /* Project object */;
+}
